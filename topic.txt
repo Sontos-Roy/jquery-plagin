@@ -1,0 +1,17 @@
+jq plugin ==
+
+search => demo + doc + ex =>
+
+github / website
+
+file link up - css + js
+
+markup
+
+style - custom css
+activation
+
+
+some effect:
+   counter plugin
+                  

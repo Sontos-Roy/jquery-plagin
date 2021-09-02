@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>jquery plagin</title>
+  </head>
+  <body>
+    <!-- header section start  -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a
+              class="navbar-brand"
+              href="index.html"
+            >
+              <img src="jquery-logo.jpg" width="200" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              onclick="myFunction(this)"
+            >
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto my-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdown-btn"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    aria-expanded="false"
+                    >J-Plagins1</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="dropdown-btn">
+                    <li class="dropend">
+                      <a
+                        class="dropdown-item droptdown-toggle"
+                        id="dropend-btn"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >Gallery <span class="arrow right"></span
+                      ></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropend-btn">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="JavaScriptGallery/light-box-gallery/index.html"
+                            >light-box-gallery</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="JavaScriptGallery/magnific-popup/index.html"
+                            >magnific-popup-Gallery</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropend">
+                      <a
+                        class="dropdown-item droptdown-toggle"
+                        id="dropend2-btn"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >counterUp <span class="arrow right"></span
+                      ></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropend2-btn">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="counter-plagins/counter1/index.html"
+                            >counter plagin 1</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="counter-plagins/counter2/index.html"
+                            >counter plagin 2</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdown2-btn"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    aria-expanded="false"
+                    >J-Plagins1</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="dropdown2-btn">
+                    <li class="dropend">
+                      <a
+                        class="dropdown-item droptdown-toggle"
+                        id="dropend3-btn"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >Gallery <span class="arrow right"></span
+                      ></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropend3-btn">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="JavaScriptGallery/light-box-gallery/index.html"
+                            >light-box-gallery</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="JavaScriptGallery/magnific-popup/index.html"
+                            >magnific-popup-Gallery</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropend">
+                      <a
+                        class="dropdown-item droptdown-toggle"
+                        id="dropend4-btn"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >counterUp <span class="arrow right"></span
+                      ></a>
+                      <ul class="dropdown-menu" aria-labelledby="dropend4-btn">
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="counter-plagins/counter1/index.html"
+                            >counter plagin 1</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="counter-plagins/counter2/index.html"
+                            >counter plagin 2</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="typewriter">
+      <h1>
+        Type Writer plagin
+      </h1>
+      <div class="tt-holder">
+        <p class="tt">I LOVE JQUERYSCRIPT!</p>
+        <p class="tt">I LOVE CSSSCRIPT!</p>
+        <p class="tt">I LOVE VUESCRIPT!</p>
+        <p class="tt">I LOVE REACTSCRIPT!</p>
+        <h1 class="ttt"></h1>
+</div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
